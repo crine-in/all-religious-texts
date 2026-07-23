@@ -1,0 +1,12 @@
+# Cursor AI Rules for all-religious-texts
+
+# Project Context
+This repo is the core specification authority for All Religious Texts (ART) by CRINE (www.crine.in).
+Schemas live in schemas/, master registries in metadata/, validation in validators/, tools in tools/.
+
+# Key Rules
+1. Never place actual corpus datasets in this repository (only examples in examples/).
+2. Run `python3 validators/run_all.py` after editing schemas, tooling, or metadata.
+3. Follow PEP 8 and Black formatting for Python.
+4. Keep JSON 2-space indented with UTF-8 encoding.
+5. All directories must be lowercase kebab-case.
