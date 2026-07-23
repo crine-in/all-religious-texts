@@ -11,19 +11,20 @@ from validate_utf8 import validate_utf8_and_newlines
 from validate_filenames import validate_filename_conventions
 from validate_metadata import validate_metadata_completeness
 
+
 def main():
     repo_root = Path(__file__).parent.parent
     print("=" * 60)
     print("   ALL RELIGIOUS TEXTS (ART) - FULL VALIDATION SUITE   ")
     print("   CRINE (www.crine.in)                                ")
     print("=" * 60 + "\n")
-    
+
     results = []
-    
+
     print("[1/6] Validating JSON Syntax...")
     results.append(validate_json_syntax(repo_root))
     print()
-    
+
     print("[2/6] Validating JSON Schemas & Registries...")
     results.append(validate_schemas(repo_root))
     print()
@@ -53,6 +54,7 @@ def main():
         print("❌ ONE OR MORE VALIDATION CHECKS FAILED.")
         print("=" * 60)
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()
