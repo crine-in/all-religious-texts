@@ -1,0 +1,97 @@
+openapi: 3.0.3
+info:
+  title: All Religious Texts (ART) REST API
+  description: Canonical REST API specification for querying sacred scriptures, metadata, and cross-references.
+  version: 1.0.0
+  contact:
+    name: CRINE Support
+    url: https://www.crine.in
+    email: api@crine.in
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+
+servers:
+  - url: https://api.crine.in/v1
+    description: Production API Server
+
+paths:
+  /religions:
+    get:
+      summary: List supported religious traditions
+      operationId: getReligions
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    name:
+                      type: string
+
+  /collections:
+    get:
+      summary: List text collections
+      operationId: getCollections
+      parameters:
+        - name: religion
+          in: query
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+
+  /books:
+    get:
+      summary: Query books & scriptures
+      operationId: getBooks
+      responses:
+        '200':
+          description: List of books
+
+  /verses:
+    get:
+      summary: Query verses by citation, book, or language
+      operationId: getVerses
+      parameters:
+        - name: book
+          in: query
+          schema:
+            type: string
+        - name: citation
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of matching verse objects
+
+  /search:
+    get:
+      summary: Full-text or semantic vector search
+      operationId: searchVerses
+      parameters:
+        - name: q
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Search results with relevance scores
+
+  /random:
+    get:
+      summary: Get a random verse
+      operationId: getRandomVerse
+      responses:
+        '200':
+          description: A single verse object

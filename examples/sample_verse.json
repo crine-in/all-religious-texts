@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/crine-in/all-religious-texts/main/schemas/verse.schema.json",
+  "id": "hinduism:upanishads:isha:1.1.1",
+  "externalId": 1,
+  "religion": "Hinduism",
+  "collection": "Principal Upanishads",
+  "book": "Isha Upanishad",
+  "chapter": 1,
+  "verse": 1,
+  "citation": "1",
+  "language": "Sanskrit",
+  "script": "IAST",
+  "text": "īśā vāsyam idaṃ sarvaṃ yat kiñca jagatyāṃ jagat |\ntena tyaktena bhuñjīthā mā gṛdhaḥ kasya sviddhanam",
+  "license": "Public Domain",
+  "source": "Gretil Archive",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

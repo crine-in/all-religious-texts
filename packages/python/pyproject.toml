@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "all-religious-texts-sdk"
+version = "1.0.0"
+description = "Python SDK for the All Religious Texts (ART) ecosystem."
+authors = [{ name = "CRINE", email = "dev@crine.in" }]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }

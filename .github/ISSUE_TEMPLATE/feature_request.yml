@@ -1,0 +1,27 @@
+name: Feature Request
+description: Suggest an enhancement, new schema field, tool, or SDK capability
+title: "[FEATURE]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Suggest an feature or architectural improvement for the ART ecosystem.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Feature Motivation
+      description: Is your feature request related to a problem or missing capability?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the solution or change you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or features you've considered?

@@ -1,0 +1,164 @@
+[
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 1,
+        "id": 1,
+        "title": "Verse 1",
+        "verse": 1,
+        "text": "īśā vāsyam idaṃ sarvaṃ yat kiñca jagatyāṃ jagat |\ntena tyaktena bhuñjīthā mā gṛdhaḥ kasya sviddhanam"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 2,
+        "id": 2,
+        "title": "Verse 2",
+        "verse": 2,
+        "text": "kurvann eveha karmāṇi jijīviṣecchataṃ samāḥ |\nevaṃ tvayi nānyatheto 'sti na karma lipyate nare"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 3,
+        "id": 3,
+        "title": "Verse 3",
+        "verse": 3,
+        "text": "asuryā nāma te lokā andhena tamasāvṛtāḥ |\ntāṃste pretyābhigacchanti ye ke cātmahano janāḥ"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 4,
+        "id": 4,
+        "title": "Verse 4",
+        "verse": 4,
+        "text": "anejad ekaṃ manaso javīyo nainaddevā āpnuvanpūrvamarṣat |\ntaddhāvato 'nyānatyeti tiṣṭhat tasminn apo mātariśvā dadhāti"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 5,
+        "id": 5,
+        "title": "Verse 5",
+        "verse": 5,
+        "text": "tad ejati tan naijati tad dūre tad v antike |\ntad antar asya sarvasya tad u sarvasyāsya bāhyataḥ"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 6,
+        "id": 6,
+        "title": "Verse 6",
+        "verse": 6,
+        "text": "yas tu sarvāṇi bhūtāny ātmany evānupaśyati |\nsarvabhūteṣu cātmānaṃ tato na vijugupsate"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 7,
+        "id": 7,
+        "title": "Verse 7",
+        "verse": 7,
+        "text": "yasmin sarvāṇi bhūtāny ātmaivābhūd vijānataḥ |\ntatra ko mohaḥ kaḥ śoka ekatvam anupaśyataḥ"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 8,
+        "id": 8,
+        "title": "Verse 8",
+        "verse": 8,
+        "text": "sa paryagāc chukram akāyam avraṇam asnāviraṃ śuddham apāpaviddham |\nkavir manīṣī paribhūḥ svayambhūr yāthātathyator 'thān vyadadhāc chāśvatībhyaḥ samābhyaḥ"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 9,
+        "id": 9,
+        "title": "Verse 9",
+        "verse": 9,
+        "text": "andhaṃ tamaḥ praviśanti ye 'vidyām upāsate |\ntato bhūya iva te tamo ya uvidyāyāṃ ratāḥ"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 10,
+        "id": 10,
+        "title": "Verse 10",
+        "verse": 10,
+        "text": "anyad evāhur vidyayān yad āhur avidyayā |\niti śuśruma dhīrāṇāṃ ye nas tad vicacakṣire"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 11,
+        "id": 11,
+        "title": "Verse 11",
+        "verse": 11,
+        "text": "vidyāṃ cāvidyāṃ ca yas tad vedobhayaṃ saha |\navidyayā mṛtyuṃ tīrtvā vidyayāmṛtam aśnute"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 12,
+        "id": 12,
+        "title": "Verse 12",
+        "verse": 12,
+        "text": "andhaṃ tamaḥ praviśanti ye 'sambhūtim upāsate |\ntato bhūya iva te tamo ya u sambhūtyāṃ ratāḥ"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 13,
+        "id": 13,
+        "title": "Verse 13",
+        "verse": 13,
+        "text": "anyad evāhuḥ saṃbhavād anyad āhur asaṃbhavāt |\niti śuśruma dhīrāṇāṃ ye nas tad vicacakṣire"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 14,
+        "id": 14,
+        "title": "Verse 14",
+        "verse": 14,
+        "text": "saṃbhūtiṃ ca vināśaṃ ca yas tad vedobhayaṃ saha |\nvināśena mṛtyuṃ tīrtvā saṃbhūtyāmṛtam aśnute"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 15,
+        "id": 15,
+        "title": "Verse 15",
+        "verse": 15,
+        "text": "hiraṇmayena pātreṇa satyasyāpihitaṃ mukham |\ntat tvaṃ pūṣann apāvṛṇu satyadharmāya dṛṣṭaye"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 16,
+        "id": 16,
+        "title": "Verse 16",
+        "verse": 16,
+        "text": "pūṣann ekarṣe yama sūrya prājāpatya vyūha raśmīn samūha tejaḥ |\nyat te rūpaṃ kalyāṇatamaṃ tat te paśyāmi yo 'sāv asau puruṣaḥ so 'ham asmi"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 17,
+        "id": 17,
+        "title": "Verse 17",
+        "verse": 17,
+        "text": "vāyur anilam amṛtam athedaṃ bhasmāntaṃ śarīram |\noṃ krato smara kṛtaṃ smara krato smara kṛtaṃ smara"
+    },
+    {
+        "chapter_id": 1,
+        "chapter_number": 1,
+        "externalId": 18,
+        "id": 18,
+        "title": "Verse 18",
+        "verse": 18,
+        "text": "agne naya supathā rāye asmān viśvāni deva vayunāni vidvān |\nyuyodhy asmaj juhurāṇam eno bhūyiṣṭhāṃ te nama uktiṃ vidhema"
+    }
+]

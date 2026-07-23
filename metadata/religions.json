@@ -1,0 +1,122 @@
+[
+  {
+    "id": "hinduism",
+    "name": "Hinduism",
+    "repository": "art-hinduism",
+    "description": "Sanatana Dharma scriptures including Vedas, Upanishads, Bhagavad Gita, Ramayana, Mahabharata, Puranas, Agamas, and Tantras."
+  },
+  {
+    "id": "buddhism",
+    "name": "Buddhism",
+    "repository": "art-buddhism",
+    "description": "Theravada, Mahayana, and Vajrayana canons including Tripitaka, Dhammapada, and Heart Sutra."
+  },
+  {
+    "id": "jainism",
+    "name": "Jainism",
+    "repository": "art-jainism",
+    "description": "Agamas, Siddhantas, Tattvartha Sutra, and Dravyasamgraha."
+  },
+  {
+    "id": "sikhism",
+    "name": "Sikhism",
+    "repository": "art-sikhism",
+    "description": "Guru Granth Sahib, Dasam Granth, and Bhai Gurdas Vaaran."
+  },
+  {
+    "id": "christianity",
+    "name": "Christianity",
+    "repository": "art-christianity",
+    "description": "Old Testament, New Testament, Deuterocanon, and Early Church Fathers."
+  },
+  {
+    "id": "islam",
+    "name": "Islam",
+    "repository": "art-islam",
+    "description": "Quran, Sahih Bukhari, Sahih Muslim, and Hadith collections."
+  },
+  {
+    "id": "judaism",
+    "name": "Judaism",
+    "repository": "art-judaism",
+    "description": "Tanakh (Torah, Nevi'im, Ketuvim), Mishnah, Talmud, and Midrash."
+  },
+  {
+    "id": "zoroastrianism",
+    "name": "Zoroastrianism",
+    "repository": "art-zoroastrianism",
+    "description": "Avesta, Gathas, Yasna, and Vendidad."
+  },
+  {
+    "id": "bahai",
+    "name": "Baháʼí Faith",
+    "repository": "art-bahai",
+    "description": "Kitáb-i-Aqdas, Kitáb-i-Íqán, and Hidden Words."
+  },
+  {
+    "id": "taoism",
+    "name": "Taoism",
+    "repository": "art-taoism",
+    "description": "Tao Te Ching, Zhuangzi, and Daozang."
+  },
+  {
+    "id": "confucianism",
+    "name": "Confucianism",
+    "repository": "art-confucianism",
+    "description": "Four Books and Five Classics including Analects and Mencius."
+  },
+  {
+    "id": "shinto",
+    "name": "Shinto",
+    "repository": "art-shinto",
+    "description": "Kojiki, Nihon Shoki, and Engishiki."
+  },
+  {
+    "id": "ancient-egyptian",
+    "name": "Ancient Egyptian Religion",
+    "repository": "art-egyptian",
+    "description": "Book of the Dead, Pyramid Texts, and Coffin Texts."
+  },
+  {
+    "id": "greek",
+    "name": "Greek Religion & Philosophy",
+    "repository": "art-greek",
+    "description": "Homeric Hymns, Hesiod's Theogony, Orphic Hymns, and Platonic Dialogues."
+  },
+  {
+    "id": "roman",
+    "name": "Roman Religion",
+    "repository": "art-roman",
+    "description": "Ovid's Fasti, Cicero's De Natura Deorum, and Virgil's Aeneid."
+  },
+  {
+    "id": "norse",
+    "name": "Norse Religion",
+    "repository": "art-norse",
+    "description": "Poetic Edda and Prose Edda."
+  },
+  {
+    "id": "chinese-folk",
+    "name": "Chinese Folk Religion",
+    "repository": "art-chinese-folk",
+    "description": "Traditional myths, Shan Hai Jing, and regional folk texts."
+  },
+  {
+    "id": "african-traditional",
+    "name": "African Traditional Religions",
+    "repository": "art-african",
+    "description": "Yoruba Odu Ifa corpus and traditional oral liturgical texts."
+  },
+  {
+    "id": "indigenous",
+    "name": "Indigenous Traditions",
+    "repository": "art-indigenous",
+    "description": "Popol Vuh, Native American sacred narratives, and Dreamtime stories."
+  },
+  {
+    "id": "other",
+    "name": "Other Traditions",
+    "repository": "art-other",
+    "description": "Hermeticism, Gnosticism, Nag Hammadi, and Dead Sea Scrolls."
+  }
+]

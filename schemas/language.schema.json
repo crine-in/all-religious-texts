@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/crine-in/all-religious-texts/main/schemas/language.schema.json",
+  "title": "Language",
+  "type": "object",
+  "required": ["code", "name", "iso639_1", "iso639_3"],
+  "properties": {
+    "code": { "type": "string" },
+    "name": { "type": "string" },
+    "iso639_1": { "type": ["string", "null"] },
+    "iso639_3": { "type": "string" },
+    "family": { "type": ["string", "null"] }
+  },
+  "additionalProperties": false
+}

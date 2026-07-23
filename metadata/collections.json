@@ -1,0 +1,22 @@
+[
+  { "id": "vedas", "name": "Vedas", "religion": "Hinduism" },
+  { "id": "upanishads", "name": "Upanishads", "religion": "Hinduism" },
+  { "id": "gita", "name": "Bhagavad Gita", "religion": "Hinduism" },
+  { "id": "epics", "name": "Epics (Itihasa)", "religion": "Hinduism" },
+  { "id": "puranas", "name": "Puranas", "religion": "Hinduism" },
+  { "id": "tripitaka", "name": "Tripitaka", "religion": "Buddhism" },
+  { "id": "dhammapada", "name": "Dhammapada", "religion": "Buddhism" },
+  { "id": "agamas-jain", "name": "Jain Agamas", "religion": "Jainism" },
+  { "id": "guru-granth-sahib", "name": "Guru Granth Sahib", "religion": "Sikhism" },
+  { "id": "old-testament", "name": "Old Testament", "religion": "Christianity" },
+  { "id": "new-testament", "name": "New Testament", "religion": "Christianity" },
+  { "id": "quran", "name": "Quran", "religion": "Islam" },
+  { "id": "hadith", "name": "Hadith Collections", "religion": "Islam" },
+  { "id": "torah", "name": "Torah", "religion": "Judaism" },
+  { "id": "talmud", "name": "Talmud", "religion": "Judaism" },
+  { "id": "avesta", "name": "Avesta", "religion": "Zoroastrianism" },
+  { "id": "tao-te-ching", "name": "Tao Te Ching", "religion": "Taoism" },
+  { "id": "analects", "name": "Analects", "religion": "Confucianism" },
+  { "id": "dead-sea-scrolls", "name": "Dead Sea Scrolls", "religion": "Other Traditions" },
+  { "id": "nag-hammadi", "name": "Nag Hammadi Library", "religion": "Other Traditions" }
+]

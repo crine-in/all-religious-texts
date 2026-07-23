@@ -1,0 +1,14 @@
+{
+  "collection_name": "all_religious_texts_embeddings",
+  "vector_size": 1536,
+  "distance_metric": "Cosine",
+  "payload_schema": {
+    "id": "keyword",
+    "religion": "keyword",
+    "collection": "keyword",
+    "book": "keyword",
+    "citation": "keyword",
+    "language": "keyword",
+    "text": "text"
+  }
+}

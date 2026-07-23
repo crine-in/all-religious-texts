@@ -1,0 +1,25 @@
+name: Proposal for New Text Repository
+description: Propose adding a new sacred text or edition to an ART ecosystem repo (e.g. art-hinduism)
+title: "[NEW TEXT]: "
+labels: ["dataset-proposal"]
+body:
+  - type: textarea
+    id: text_details
+    attributes:
+      label: Text Details
+      description: Name of text, religion, collection, language, and script.
+      placeholder: |
+        - Title: Dhammapada
+        - Religion: Buddhism
+        - Collection: Khuddaka Nikaya
+        - Language: Pali
+        - Script: Sinhala / Roman IAST
+    validations:
+      required: true
+  - type: textarea
+    id: copyright
+    attributes:
+      label: License & Provenance
+      description: Is the source text in the public domain or under an open license? Provide URL.
+    validations:
+      required: true

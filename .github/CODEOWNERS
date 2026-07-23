@@ -1,0 +1,11 @@
+# Default owners for entire repository
+*       @crine-in/core-maintainers
+
+# Schemas and Registries
+/schemas/   @crine-in/schema-architects
+/metadata/  @crine-in/schema-architects
+
+# Tools & Validation Suite
+/validators/ @crine-in/devops
+/tools/      @crine-in/devops
+/scripts/    @crine-in/devops

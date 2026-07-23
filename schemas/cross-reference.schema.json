@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/crine-in/all-religious-texts/main/schemas/cross-reference.schema.json",
+  "title": "Cross Reference",
+  "type": "object",
+  "required": ["sourceVerseId", "targetVerseId", "relationshipType"],
+  "properties": {
+    "sourceVerseId": { "type": "string" },
+    "targetVerseId": { "type": "string" },
+    "relationshipType": { 
+      "type": "string",
+      "enum": ["parallel", "quotation", "allusion", "commentary-link", "thematic"]
+    },
+    "notes": { "type": ["string", "null"] },
+    "confidence": { "type": ["number", "null"] }
+  },
+  "additionalProperties": false
+}

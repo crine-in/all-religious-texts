@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/crine-in/all-religious-texts/main/schemas/script.schema.json",
+  "title": "Script",
+  "type": "object",
+  "required": ["code", "name", "iso15924"],
+  "properties": {
+    "code": { "type": "string" },
+    "name": { "type": "string" },
+    "iso15924": { "type": "string" },
+    "direction": { "type": "string", "enum": ["ltr", "rtl"] }
+  },
+  "additionalProperties": false
+}

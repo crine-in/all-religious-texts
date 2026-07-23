@@ -1,0 +1,13 @@
+[
+  { "code": "sa", "name": "Sanskrit", "iso639_1": "sa", "iso639_3": "san", "family": "Indo-Aryan" },
+  { "code": "pli", "name": "Pali", "iso639_1": null, "iso639_3": "pli", "family": "Indo-Aryan" },
+  { "code": "ar", "name": "Arabic", "iso639_1": "ar", "iso639_3": "ara", "family": "Semitic" },
+  { "code": "he", "name": "Hebrew", "iso639_1": "he", "iso639_3": "heb", "family": "Semitic" },
+  { "code": "grc", "name": "Ancient Greek", "iso639_1": null, "iso639_3": "grc", "family": "Hellenic" },
+  { "code": "la", "name": "Latin", "iso639_1": "la", "iso639_3": "lat", "family": "Italic" },
+  { "code": "lzh", "name": "Literary Chinese", "iso639_1": null, "iso639_3": "lzh", "family": "Sinitic" },
+  { "code": "pa", "name": "Punjabi", "iso639_1": "pa", "iso639_3": "pan", "family": "Indo-Aryan" },
+  { "code": "en", "name": "English", "iso639_1": "en", "iso639_3": "eng", "family": "Germanic" },
+  { "code": "ave", "name": "Avestan", "iso639_1": "ae", "iso639_3": "ave", "family": "Iranian" },
+  { "code": "bo", "name": "Tibetan", "iso639_1": "bo", "iso639_3": "bod", "family": "Tibeto-Burman" }
+]

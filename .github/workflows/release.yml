@@ -1,0 +1,27 @@
+name: Release Specification Artifacts
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Build Schema & API Bundle
+        run: |
+          mkdir -p dist
+          tar -czvf dist/schemas-v1.tar.gz schemas/ metadata/ api/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/schemas-v1.tar.gz
+            api/openapi.yaml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

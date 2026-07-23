@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/crine-in/all-religious-texts/main/schemas/verse.schema.json",
+  "title": "Verse",
+  "description": "Universal JSON Schema for a single verse, line, stanza, or unit of sacred text in the ART ecosystem.",
+  "type": "object",
+  "required": [
+    "id",
+    "externalId",
+    "religion",
+    "collection",
+    "book",
+    "chapter",
+    "verse",
+    "citation",
+    "language",
+    "script",
+    "text",
+    "license",
+    "source"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique global semantic identifier, e.g. hinduism:upanishads:katha:1.1.1"
+    },
+    "externalId": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Sequential 1-indexed integer ID within the text file"
+    },
+    "religion": {
+      "type": "string",
+      "description": "Canonical name of the religious tradition"
+    },
+    "collection": {
+      "type": "string",
+      "description": "Collection or canon grouping, e.g. Principal Upanishads, Tripitaka"
+    },
+    "book": {
+      "type": "string",
+      "description": "Name of the scripture or book"
+    },
+    "canto": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "description": "Canto or major book division if applicable"
+    },
+    "chapter": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Chapter, Valli, Surah, or major section number"
+    },
+    "section": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "description": "Sub-section or paragraph grouping if applicable"
+    },
+    "verse": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Verse or mantra number within chapter"
+    },
+    "subVerse": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "description": "Line or stanza identifier within the verse"
+    },
+    "citation": {
+      "type": "string",
+      "description": "Human-readable standard citation string, e.g. '1.1.1' or '24:35'"
+    },
+    "language": {
+      "type": "string",
+      "description": "Language of the text text, e.g. Sanskrit, Arabic, Hebrew, English"
+    },
+    "script": {
+      "type": "string",
+      "description": "Script or orthography, e.g. Devanagari, IAST, Arabic, Latin"
+    },
+    "text": {
+      "type": "string",
+      "description": "The exact verse text"
+    },
+    "license": {
+      "type": "string",
+      "description": "License applicable to this verse text"
+    },
+    "source": {
+      "type": "string",
+      "description": "Digital source archive or print edition attribution"
+    },
+    "attribution": {
+      "type": ["string", "null"],
+      "description": "Additional attribution notice"
+    },
+    "translator": {
+      "type": ["string", "null"],
+      "description": "Translator name if this is a translated edition"
+    },
+    "edition": {
+      "type": ["string", "null"],
+      "description": "Specific recension or critical edition name"
+    },
+    "footnotes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of textual footnotes"
+    },
+    "crossReferences": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of related verse IDs or citations"
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Thematic or conceptual keywords"
+    },
+    "embedding": {
+      "type": "array",
+      "items": { "type": "number" },
+      "description": "Optional vector embedding representation"
+    },
+    "checksum": {
+      "type": "string",
+      "description": "SHA-256 hash of text"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 UTC timestamp"
+    }
+  },
+  "additionalProperties": false
+}

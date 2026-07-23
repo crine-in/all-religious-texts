@@ -1,0 +1,12 @@
+{
+  "name": "@crine/all-religious-texts",
+  "version": "1.0.0",
+  "description": "JavaScript/TypeScript SDK for querying and validating All Religious Texts (ART) data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": ["sacred-texts", "dharna", "crine", "theology", "digital-humanities"],
+  "author": "CRINE (www.crine.in)",
+  "license": "MIT"
+}

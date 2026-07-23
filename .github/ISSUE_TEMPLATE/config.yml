@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: CRINE Community Discussions
+    url: https://github.com/crine-in/all-religious-texts/discussions
+    about: Ask questions, discuss research, or network with ecosystem contributors.
+  - name: Website & Ecosystem Portal
+    url: https://www.crine.in
+    about: Official portal of CRINE organization.

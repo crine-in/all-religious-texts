@@ -1,0 +1,7 @@
+[package]
+name = "all-religious-texts"
+version = "1.0.0"
+edition = "2021"
+authors = ["CRINE <dev@crine.in>"]
+description = "Rust SDK and types for the All Religious Texts (ART) ecosystem."
+license = "MIT"

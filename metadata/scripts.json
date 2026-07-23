@@ -1,0 +1,11 @@
+[
+  { "code": "Deva", "name": "Devanagari", "iso15924": "Deva", "direction": "ltr" },
+  { "code": "IAST", "name": "International Alphabet of Sanskrit Transliteration", "iso15924": "Latn", "direction": "ltr" },
+  { "code": "Arab", "name": "Arabic Script", "iso15924": "Arab", "direction": "rtl" },
+  { "code": "Hebr", "name": "Hebrew Script", "iso15924": "Hebr", "direction": "rtl" },
+  { "code": "Grek", "name": "Greek Script", "iso15924": "Grek", "direction": "ltr" },
+  { "code": "Latn", "name": "Latin Script", "iso15924": "Latn", "direction": "ltr" },
+  { "code": "Hani", "name": "Han Character Script", "iso15924": "Hani", "direction": "ltr" },
+  { "code": "Guru", "name": "Gurmukhi", "iso15924": "Guru", "direction": "ltr" },
+  { "code": "Tibt", "name": "Tibetan Script", "iso15924": "Tibt", "direction": "ltr" }
+]
